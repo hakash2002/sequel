@@ -100,35 +100,6 @@ left join
 	gt.id = s.grass_type_id
 group by 	
 	gt.id
-	--------------------------------------------------------------------------------
-
-	
-select
-	p.first_name || ' ' || p.last_name as full_name,
-	f."name",
-	string_agg(start_year::text,
-	'-') as served_timeline
-from
-	contracts c
-inner join 
-    franchises f on
-	c.franchise_id = f.id
-left join
-    players p on
-	p.id = c.player_id
-where
-	c.year_signed between extract(year
-from
-	CURRENT_DATE) - 10 
-	and extract(year
-from
-	CURRENT_DATE)
-	and c.start_year <> 0
-group by
-	p.id,
-	f."name"
-order by
-	p.id
 	-------------------Player's franchise names in the past 10 years--------------
 
 select
