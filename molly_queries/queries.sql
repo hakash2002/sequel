@@ -135,38 +135,38 @@ order by
 		p.id,
 		served_years
 	------------------Games with franchise names--------------
-		
 select 
 	g."start",
 	g.home_franchise_id,
 	g.away_franchise_id,
 	(
 	select
-		t.nickname
+		t.city || ' ' || t.nickname
 	from
 		franchises f,
 		teams t
 	where
 		f.id = g.home_franchise_id
 		and t.franchise_id = f.id
-	limit 1) as home_team,
+		and
+		g.season_id between t.start_season and t.end_season
+		) as home_team,
 	(
 	select
-		t.nickname
+		t.city || ' ' || t.nickname
 	from
 		franchises f,
 		teams t
 	where
 		f.id = g.away_franchise_id
 		and t.franchise_id = f.id
-	limit 1) as away_team
+		and
+	g.season_id between t.start_season and t.end_season) as away_team
 from
 	games g
 inner join 
 	franchises f on
 	g.home_franchise_id = f.id
-inner join 
-	players p
 	---------------Given a game id find the players played----------------
 with gamedetails as (
 	select 
