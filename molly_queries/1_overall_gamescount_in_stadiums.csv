@@ -1,0 +1,356 @@
+"stadium_id","name","total_games_played"
+46,Raymond James Stadium,278
+53,MetLife Stadium,275
+28,Hard Rock Stadium,270
+39,Acrisure Stadium,269
+37,Lincoln Financial Field,266
+18,Ford Field,217
+8,Bank of America Stadium,204
+21,NRG Stadium,201
+32,Caesers Superdome,200
+47,Nissan Stadium,197
+30,Gillette Stadium,195
+42,Lumen Field,194
+24,TIAA Bank Field,189
+14,AT&T Stadium,188
+25,Arrowhead Stadium,187
+16,Empower Field at Mile High,186
+6,M&T Bank Stadium,185
+4,State Farm Stadium,184
+12,Paycor Stadium,184
+20,Lambeau Field,183
+9,Soldier Field,182
+41,San Diego County Credit Union Stadium,180
+48,FedEx Field,179
+13,Cleveland Browns Stadium,171
+22,Lucas Oil Stadium,170
+7,Highmark Stadium,170
+36,Oakland - Alameda County Coliseum,128
+50,Los Angeles Memorial Coliseum,122
+2,Georgia Dome,118
+52,Levi's Stadium,116
+60,Simmons Bank Liberty Stadium,116
+45,The Dome at America's Center,114
+145,Memorial Stadium (Champaign),113
+55,Huntington Bank Stadium,109
+34,Tiger Stadium,104
+33,Alamodome,102
+3,Mercedes-Benz Stadium,98
+161,Rose Bowl Stadium,98
+155,Jordan–Hare Stadium,95
+151,Neyland Stadium,94
+91,Bryant–Denny Stadium,94
+74,Amon G. Carter Stadium,94
+136,Kroger Field,93
+112,Faurot Field at Memorial Stadium,93
+181,Williams-Brice Stadium,93
+70,Albertsons Stadium,92
+103,Darrell K Royal–Texas Memorial Stadium,92
+76,Arizona Stadium,92
+176,Vaught–Hemingway Stadium at Hollingsworth Field,92
+114,Frank Howard Field at Clemson Memorial Stadium,92
+126,John O Quinn Field at TDECU Stadium,92
+153,Notre Dame Stadium,92
+137,Kyle Field,91
+85,Bobby Bowden Field at Doak S. Campbell Stadium,91
+5,Mountain America Stadium,91
+170,Spartan Stadium,91
+83,Bill Snyder Family Football Stadium,90
+61,FBC Mortgage Stadium,90
+180,Carter-Finley Stadium,90
+81,Beaver Stadium,90
+105,Davis Wade Stadium at Scott Field,90
+107,Donald W. Reynolds Razorback Stadium,89
+95,Camp Randall Stadium,89
+154,Ohio Stadium,89
+148,Michigan Stadium,89
+134,Kinnick Stadium,88
+98,Scott Stadium,88
+87,Boone Pickens Stadium,88
+69,Alaska Airlines Field at Husky Stadium,88
+119,SHI Stadium,87
+78,Autzen Stadium,87
+144,McLane Stadium,87
+132,Kenan Memorial Stadium,86
+162,Ross–Ade Stadium,86
+166,Sanford Stadium,86
+175,FirstBank Stadium,86
+117,Gerald J. Ford Stadium,86
+163,Ryan Field,85
+97,Cardinal Stadium,85
+111,FAU Stadium,85
+100,JMA Wireless Dome,85
+86,Bobby Dodd Stadium at Historic Grant Field,85
+172,Ben Hill Griffin Stadium,85
+122,Jack Trice Stadium,84
+89,Brooks Field at Wallace Wade Stadium,84
+139,Lane Stadium,84
+109,University Stadium,84
+116,Gaylord Family – Oklahoma Memorial Stadium,83
+160,Rice Stadium,83
+82,Benson Field at Yulman Stadium,83
+149,Mountaineer Field at Milan Puskar Stadium,83
+124,Joan C. Edwards Stadium,83
+129,Jones AT&T Stadium,83
+35,Giants Stadium,83
+56,SoFi Stadium,83
+73,Alumni Stadium (Boston College),82
+140,LaVell Edwards Stadium,82
+150,Navy–Marine Corps Memorial Stadium,82
+152,Nippert Stadium,82
+80,Truist Field at Wake Forest,82
+104,David Booth Kansas Memorial Stadium,82
+54,US Bank Stadium,82
+62,Rice-Eccles Stadium,81
+158,Reser Stadium,81
+245,Protective Stadium,81
+171,Stanford Stadium,81
+173,Sun Bowl Stadium,81
+96,SECU Stadium,80
+79,Bagwell Field at Dowdy–Ficklen Stadium,80
+94,California Memorial Stadium,79
+102,Centennial Bank Stadium,79
+128,War Memorial Stadium,79
+113,Folsom Field,78
+75,Apogee Stadium,78
+99,MM Roberts Stadium,78
+147,Maverik Stadium,78
+159,Riccardo Silva Stadium,78
+110,Falcon Stadium,78
+93,Cajun Field,77
+142,Martin Stadium,77
+120,Houchens Industries–L.T. Smith Stadium,77
+118,Glass Bowl,77
+156,Peden Stadium,77
+168,H.A. Chapman Stadium,77
+146,Memorial Stadium (Lincoln),76
+177,Veterans Memorial Stadium at Larry Blakeney Field,76
+157,Pratt & Whitney Stadium,76
+84,Michie Stadium,76
+44,Candlestick Park,76
+141,Mackay Stadium,76
+88,Brigham Field at Huskie Stadium (NIU),75
+169,Canvas Stadium,75
+92,Valley Children's Stadium,75
+174,UB Stadium,74
+121,InfoCision Stadium–Summa Field,73
+167,Scheumann Stadium,73
+29,Hubert H. Humphrey Metrodome,73
+57,Allegiant Stadium,73
+101,CEFCU Stadium,73
+108,Doyt L. Perry Stadium,73
+131,Kelly/Shorts Stadium,73
+123,Bobcat Stadium (Texas State),72
+178,Waldo Stadium,71
+127,Floyd Stadium,71
+125,Joe Aillet Stadium,71
+164,Rynearson Stadium,71
+202,Memorial Stadium (Indiana),69
+58,Center Parc Stadium,68
+130,JPS Field at Malone Stadium,68
+68,Aggie Memorial Stadium,68
+72,Aloha Stadium,67
+115,Fred C. Yager Stadium,66
+106,Dix Stadium,66
+138,Ladd–Peebles Stadium,65
+165,Sam Boyd Stadium,64
+133,Kidd Brewer Stadium,63
+179,Warren McGuirk Alumni Stadium,58
+71,Allen E. Paulson Stadium,57
+90,Brooks Stadium,56
+59,Legion Field,55
+182,William H. Kibbie-A SUI Activity Center,55
+135,Kornblau Field at S.B. Ballard Stadium,55
+143,Jerry Richardson Stadium,51
+49,Dignity Health Sports Park,47
+77,Arthur L. Williams Stadium,44
+63,Camping World Stadium,38
+201,Hancock Whitney Stadium,35
+15,Texas Stadium,33
+352,Commonwealth Stadium,30
+23,RCA Dome,28
+64,Tom Benson Hall of Fame Stadium,26
+26,Wembley Stadium,26
+67,IG Field,23
+349,BC Place,22
+242,Clarence T.C. Ching Athletics Complex,22
+200,Audi Field,22
+354,Percival Molson Memorial Stadium,22
+186,Cotton Bowl Stadium,21
+351,Mosaic Stadium,21
+356,TD Place Stadium,20
+353,BMO Field,20
+350,McMahon Stadium,20
+317,Dana J. Dykhouse Stadium,18
+225,Harvard Stadium,17
+240,Fargodome,17
+205,Manning Field at John L. Guidry Stadium,16
+298,Washington Grizzly Stadium,16
+204,Estes Stadium,16
+301,Stewart Stadium,16
+210,Villanova Stadium,15
+183,Cramton Bowl,15
+299,Bobcat Stadium (Montana State),15
+344,Choctaw Stadium,15
+249,Snapdragon Stadium,14
+268,Delaware Stadium,14
+316,DakotaDome,13
+340,Stambaugh Stadium,13
+311,E. Claiborne Robins Stadium,13
+203,Fortera Stadium,13
+323,Spec Martin Municipal Stadium,13
+208,Gayle and Tom Benson Stadium,13
+214,Strawberry Stadium,13
+216,O'Kelly-Riddick Stadium,13
+269,Alumni Stadium (Delaware State),12
+212,Zable Stadium at Carey Field,12
+207,Provost Umphrey Stadium,12
+247,Bridgeforth Stadium,12
+217,Hughes Stadium,12
+238,Torero Stadium,12
+226,Brown Stadium,12
+315,Seibert Stadium,12
+211,Johnny Unitas Stadium,12
+341,Richardson Stadium,12
+280,Cooper Field,12
+213,Wildcat Stadium (New Hampshire),12
+252,Alerus Center,12
+218,Bragg Memorial Stadium,12
+232,ASU Football Stadium,12
+189,Yankee Stadium,12
+229,Robert K. Kraft Field at Lawrence A. Wien Stadium,12
+339,Yale Bowl,12
+275,Roy Kidd Stadium,12
+279,Paladin Stadium,12
+230,Jack Spinks Memorial Stadium,12
+284,Hancock Stadium,12
+313,Hornet Stadium (Sacramento CA),12
+261,Bud and Jackie Sellick Bowl,12
+292,Tenney Stadium at Leonidoff Field,11
+231,Cowboy Stadium (McNeese State),11
+251,A.W. Mumford Stadium,11
+303,Truist Stadium,11
+319,Saluki Stadium,11
+227,Schoellkopf Field,11
+306,UNI Dome,11
+297,Kessler Stadium,11
+330,Ernest Hawkins Field at Memorial Stadium,11
+287,Fisher Stadium,11
+223,Oliver C. Dawson Stadium,11
+221,Buccaneer Field,11
+267,Welcome Stadium,11
+281,Armstrong Stadium,11
+334,Alumni Memorial Field,11
+253,Mustang Memorial Field,11
+293,Five Star Stadium,11
+322,O'Shaughnessy Stadium,11
+285,Memorial Stadium (Indiana State),11
+326,Memorial Stadium (Tarleton State),11
+256,Bob Ford Field at Tom & Mary Casey Stadium,11
+258,Simmons Bank Field,11
+236,Homer Bryce Stadium,11
+312,Joe Walton Stadium,11
+228,Franklin Field,11
+184,Toyota Stadium,11
+286,Fifth Third Bank Stadium,11
+355,Tim Hortons Field,11
+283,Holt Arena,10
+296,Robert W. Plaster Stadium,10
+277,Rhodes Stadium,10
+310,Meade Stadium,10
+342,Finley Stadium,10
+336,E.J. Whitmire Stadium,10
+234,Mississippi Veterans Memorial Stadium,10
+188,Independence Stadium,10
+304,Walkup Skydome,10
+266,Memorial Field (Dartmouth),10
+276,Roos Field,10
+264,Johnson Hagood Stadium,10
+215,Ernest W. Spangler Stadium,10
+309,Powers Field at Princeton Stadium,10
+320,Eccles Coliseum,10
+314,Campus Field,10
+288,Goodman Stadium,10
+305,Nottingham Field,10
+328,Tucker Stadium,10
+222,William Price Football Stadium,10
+338,Gibbs Stadium,10
+291,Alfond Stadium,10
+260,Christy Mathewson Memorial Stadium,10
+332,UC Davis Health Stadium,10
+333,Brown Field,10
+325,Kenneth P. LaValle Stadium,10
+308,Bailey Memorial Stadium,10
+307,Hillsboro Stadium,10
+273,William B. Greene Jr. Stadium,10
+235,Panther Stadium at Blackshear Field,10
+224,Beirne Stadium,10
+278,Coffey Field,10
+239,Fitton Field,10
+274,O'Brien Field,10
+337,Hanson Field,10
+209,Andy Kerr Stadium,10
+271,Drake Stadium,10
+190,Tropicana Field,10
+289,Harlen C. Hunter Stadium,10
+206,Harry Turpin Stadium,10
+250,JSU Stadium,10
+329,Hardy M. Graham Stadium,10
+294,Duane Stadium,10
+263,Arute Field,10
+254,Anthony Field at Wildcat Stadium,10
+237,Elliot T. Bowers Stadium,10
+300,Jayne Stadium,10
+282,Husky Stadium (Houston Baptist),10
+302,Braly Municipal Stadium,9
+255,Louis Crews Stadium,9
+335,Wagner College Stadium,9
+331,Shell Energy Stadium,9
+290,Bethpage Federal Credit Union Stadium,9
+272,Arthur J. Rooney Athletic Field,9
+295,Rice Totten Stadium,9
+270,Greater Zion Stadium,9
+318,Houck Stadium,9
+262,Barker Lane Stadium,9
+324,W. B. Mason Stadium,9
+233,Eddie G. Robinson Memorial Stadium,8
+185,Thomas Robinson Stadium,8
+187,Chase Field,8
+219,William H. Greene Stadium,8
+65,Tottenham Hotspur Stadium,7
+259,Daytona Stadium,7
+321,DeGol Field,7
+199,Globe Life Park,7
+11,Rogers Stadium,6
+66,Aloha Stadium,6
+357,Cashman Field,5
+257,Spinks–Casem Stadium Stadium,5
+27,Estadio Azteca,5
+346,Roy Stewart Stadium,5
+192,Fenway Park,5
+220,BB&T Stadium,5
+191,Marlins Park,4
+51,Twickenham Stadium,3
+198,Exploria Stadium,3
+195,Aviva Stadium,3
+360,Deutsche Bank Park,2
+17,Mile High Stadium,2
+244,Wrigley Field,2
+348,Polar Park,2
+246,Petco Park,2
+243,War Memorial Stadium (Little Rock AR),2
+193,Croke Park,1
+363,Wildcat Stadium (Indiana Wesleyan),1
+364,Huskies Stadium,1
+248,Allianz Arena,1
+347,Toyota Field,1
+345,Robert B. Redman Stadium,1
+361,Red Bull Arena,1
+196,Bristol Motor Speedway,1
+359,Parker Field at McCool Stadium,1
+343,Providence Park,1
+194,ANZ Stadium,1
+358,Raymond Field,1
+197,Guaranteed Rate Field,1
+327,Hale Stadium,1
+362,Target Field,1
