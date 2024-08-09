@@ -2,7 +2,7 @@
 
 -----Info on no of plays played in the respective stadium for a particular play------------
 
-create temp table teams_with_names (
+create table teams_with_names (
     franchise_id INT,
     league_abbrevation VARCHAR(10),
     start_season INT,
@@ -25,11 +25,11 @@ insert into teams_with_names(franchise_id, league_abbrevation, start_season, end
 		l.id = f.league_id 
 	);
 
-	select 
+select 
 	stadium_id,
-		stadium_name,
-		game_season,
-		games_info,
+	stadium_name,
+	game_season,
+	games_info,
 	json_array_length(games_info) as games_count
 from
 	(
@@ -96,18 +96,21 @@ from
 		stadium_name,
 		game_season
 	);
-		-------	Count of playes played in a particular stadium all over the seasons---
+		-------	Count of plays played in a particular stadium all over the seasons---
 		select
-			stadium_id,
-			name,
-			sum(no_of_games_played) total_games_played
+			s.id ,
+			s."name",
+			count(g.id) total_games_played
 		from
-			season_wise_stadium_stats
+			games g
+			inner join stadiums s on g.stadium_id = s.id 
 		group by
-			stadium_id,
-			name
+			s.id ,
+			s."name" 
 		order by
 			total_games_played desc;
+		
+		
 	-----3. Season wise player injury details --------------
 	select
 		player_id,
@@ -168,8 +171,4 @@ from
 				it.id = pid.injury_type_id
 		)
 		order by
-			season
-
-		
-		
-	
+			season;
