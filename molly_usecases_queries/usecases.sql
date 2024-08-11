@@ -83,32 +83,44 @@ from
 				and g.season_id between start_season and end_season
 			) as league_abbrevation
 		from
-				stadiums s
-		inner join 
+			team_stadiums ts
+		right join 
 			games g 
 			on
-				g.stadium_id = s.id)
+				(g.home_franchise_id = ts.franchise_id
+				and g.season_id between ts.start_season and ts.end_season)
+		inner join 
+			stadiums s on
+			(s.id = ts.stadium_id)
+			or (g.stadium_id = s.id))
 	group by
-		stadium_id,
-		stadium_name,
-		game_season
+			stadium_id,
+			stadium_name,
+			game_season
 	order by
-		stadium_name,
-		game_season
+			stadium_name,
+			game_season
 	);
-		-------	Count of plays played in a particular stadium all over the seasons---
-		select
-			s.id ,
-			s."name",
-			count(g.id) total_games_played
-		from
-			games g
-			inner join stadiums s on g.stadium_id = s.id 
-		group by
-			s.id ,
-			s."name" 
-		order by
-			total_games_played desc;
+
+		-------	Count of playes played in a particular stadium all over the seasons---
+	
+select
+	s."name",
+	count(g.id)
+from
+	team_stadiums ts
+right join 
+	games g on
+	g.home_franchise_id = ts.franchise_id
+	and g.season_id between ts.start_season and ts.end_season
+inner join 
+	stadiums s on
+	(s.id = ts.stadium_id )
+	or (s.id = g.stadium_id)
+group by 
+	s.id
+order by 	
+	count desc
 		
 		
 	-----3. Season wise player injury details --------------
