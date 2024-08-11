@@ -120,7 +120,7 @@ inner join
 group by 
 	s.id
 order by 	
-	count desc
+	count desc;
 		
 		
 	-----3. Season wise player injury details --------------
